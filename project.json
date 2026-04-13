@@ -1,0 +1,21 @@
+{
+  "overview": "Jesus Online Zone is a digital services ordering platform for an Indian online services shop. Customers can browse 30 services across 5 categories (Government, Banking, Jobs, Printing, Design), search and filter services, and place orders with document uploads. The platform includes an admin dashboard to manage and track all incoming orders.",
+  "features": [
+    "Browse 30 services across 5 categories with search and filter",
+    "Order placement with document upload support",
+    "Order modal with UPI payment details and file drag-and-drop",
+    "Admin dashboard to view all orders in a sortable table",
+    "Responsive design for mobile, tablet, and desktop",
+    "Service card hover animations and smooth UI interactions"
+  ],
+  "category": "ecommerce",
+  "tags": [
+    "services",
+    "ordering",
+    "government",
+    "india",
+    "digital-services",
+    "admin-dashboard"
+  ],
+  "last_updated": "2026-04-13T11:56:50.564Z"
+}

@@ -1,0 +1,17 @@
+type Order = 
+ record {
+   customerName: text;
+   email: text;
+   fileUrls: vec text;
+   id: nat;
+   phone: text;
+   serviceName: text;
+   status: text;
+   timestamp: int;
+ };
+service : {
+  addOrder: (serviceName: text, customerName: text, phone: text, email: 
+   text, fileUrls: vec text) -> (nat);
+  getOrders: () -> (vec Order) query;
+  updateOrderStatus: (id: nat, status: text) -> (bool);
+}
